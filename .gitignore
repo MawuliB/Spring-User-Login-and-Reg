@@ -34,4 +34,6 @@ build/
 
 ### Application Properties ###
 application.properties
+!**/src/main/**/resources/application.properties
 application-dev.properties
+!**/src/test/**/resources/application-dev.properties
